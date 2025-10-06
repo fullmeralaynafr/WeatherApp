@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
 </head>
 <body>
     <header></header>
@@ -21,13 +21,12 @@
         <h1><strong>Salt Lake City<strong></h1>
    <h2> What's the Weather?</h2>
    <h3> Today's Weather <span id="todaysdate"></span></h3>
-   <div class="currentweather">
-    <span style="color:blue"<p>Currently:<span id="currenttemp"></span>93°F</p>
-    <p>High: <span id="temphigh"></span>93°F</p>
-    <p>Low: <span id="templow"></span>68°F</p>
-    <p>Wind Speed: <span id="windspeed"></span>8 mph</p> 
-    <p>Humidity: <span id="humidity"></span>9%</p>
-    <p>Chance for Precipitation <span id="precipitation"></span>0%</p></span>
+   <div class="flex-col">
+    <p>Currently:<span id="currenttemp"></span>93°F</p>
+    <p>High: <span id="temp-max"></span>93°F</p>
+    <p>Low: <span id="temp-min"></span>68°F</p> 
+    <p>Humidity: <span id="current-humid"></span>9%</p>
+    <p>Wind Speed: <span id="current-windSpeed"></span></p>
 </div>
         </section>
         <figure> 
@@ -126,5 +125,6 @@
         <h6> © 2025 | Alayna Fullmer | Tooele Technical College</h6>
         <h6>Last Updated: Monday August 18 2025</h6>
     </footer>
-</body>
+    <script src ="weather-header.js"></script>
+</body> 
 </html>
